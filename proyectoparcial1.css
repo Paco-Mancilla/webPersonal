@@ -25,3 +25,14 @@ ul {
   li a:hover {
     background-color: #111;
   }
+  aside{
+      display: block;
+      float: left;
+  }
+  body{
+    background-color: rgb(11, 12, 22);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
