@@ -3,8 +3,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #048998;
     position: relative;
+    box-shadow: 0px 8px 5px 0px #04899883;
+    position: sticky;
   }
   
   li {
@@ -30,9 +32,58 @@ ul {
       float: left;
   }
   body{
-    background-color: rgb(11, 12, 22);
-    color:white;
+    background-color: #f6f5f5;
+    color:black;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .Estudios{
+    border:3px #3bb4c1 solid;
+    padding-top: 1px;
+    margin: 4px;
+    border-radius: 20px;
+  }
+  .Cursos{
+    border:3px #3bb4c1 solid;
+    padding-top: 1px;
+    margin: 4px;
+    border-radius: 20px;
+  }
+  .Hobbies{
+    border:3px #3bb4c1 solid;
+    padding-top: 1px;
+    margin: 4px;
+    border-radius: 20px;
+  }
+  .Temas_de_inters{
+    border:3px #3bb4c1 solid;
+    padding-top: 1px;
+    margin: 4px;
+    border-radius: 20px;
+  }
+  .Contacto{
+    border:3px #3bb4c1 solid;
+    padding-top: 1px;
+    margin: 4px;
+    border-radius: 20px;
+  }
 
+  h2{
+    border-bottom: 3px #3bb4c1 solid;
+    background-color: #e9e4e6;
+    padding:20px;
+    margin: auto;
+    border-radius: 14px;
+  }
+  
+  p{
+    margin: 8px;
+    padding: 2px;
+    font-size: 3vh;
+    text-align: justify;
+  }
+
+  header{
+    position: sticky;
+  }
+  
   
