@@ -26,6 +26,9 @@ ul {
   }
   li a:hover {
     background-color: #111;
+    transform: scale(10px);
+    animation-duration: 4s;
+    box-shadow: 2px 2px 2px  black;
   }
   aside{
       display: block;
@@ -35,36 +38,75 @@ ul {
     background-color: #f6f5f5;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagen.jpg);
+    position: relative;
   }
   .Estudios{
-    border:3px #3bb4c1 solid;
     padding-top: 1px;
     margin: 4px;
     border-radius: 20px;
+    box-shadow: 5px 5px 4px black;
+    background-color: #f6f5f5;
+    opacity: 0.8;
+    float: right;
+    width: 1000px;
+    position: relative;
   }
   .Cursos{
-    border:3px #3bb4c1 solid;
     padding-top: 1px;
     margin: 4px;
     border-radius: 20px;
+    box-shadow: 5px 5px 4px black;
+    background-color: #f6f5f5;
+    opacity: 0.8;
+    float: right;
+    width: 1000px;
+    position: relative;
   }
   .Hobbies{
-    border:3px #3bb4c1 solid;
     padding-top: 1px;
     margin: 4px;
     border-radius: 20px;
+    box-shadow: 5px 5px 4px black;
+    background-color: #f6f5f5;
+    opacity: 0.8;
+    float: right;
+    width: 1000px;
+    position: relative;
   }
   .Temas_de_inters{
-    border:3px #3bb4c1 solid;
     padding-top: 1px;
     margin: 4px;
     border-radius: 20px;
+    box-shadow: 5px 5px 4px black;
+    background-color: #f6f5f5;
+    opacity: 0.8;
+    float: right;
+    width: 1000px;
+    position: relative;
   }
   .Contacto{
-    border:3px #3bb4c1 solid;
     padding-top: 1px;
     margin: 4px;
     border-radius: 20px;
+    box-shadow: 5px 5px 4px black;
+    background-color: #f6f5f5;
+    opacity: 0.8;
+    float: right;
+    width: 1000px;
+    position: relative;
+  }
+
+  .ExtraInfo{
+    padding-top: 1px;
+    margin: 4px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 4px black;
+    background-color: #f6f5f5;
+    opacity: 0.8;
+    float: right;
+    width: 1000px;
+    position: relative;
   }
 
   h2{
@@ -82,8 +124,64 @@ ul {
     text-align: justify;
   }
 
-  header{
-    position: sticky;
+  input{
+    border: none;
+    border-bottom: 2px #048998 solid;
+    border-radius:20px;
+    padding: 10px 10px;
+    margin: 10px 10;
+    width: 200px;
+    
   }
-  
-  
+
+  input[type=text] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=tel] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=email] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+  input[type=text]:focus {
+    width: 90%;
+  }
+  input[type=tel]:focus {
+    width: 90%;
+  }
+  input[type=email]:focus {
+    width: 90%;
+  }
+
+  input[type=button]{
+    background-color: #048998;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=button]:click {
+    transition: step-start;
+  }
+ 
+  aside{
+    border:3px #3bb4c1 solid;
+    background: #f6f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    border-radius: 20px;
+  }
+  a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #111
+  }
